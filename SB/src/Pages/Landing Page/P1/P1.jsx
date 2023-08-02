@@ -1,6 +1,7 @@
 import "./P1.scss"
 
-import Header from "../../Components/Header/Header"
+import Header from "../../Header/Header"
+
 
 const P1 = () => {
   return (
