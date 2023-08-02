@@ -6,9 +6,12 @@ const Header = () => {
     <div className="Navbar">
         <div className="Wrapper">
             <div className="Sections">
-                <Link to = "/Complaints" className="Link">Complaints</Link>
+                <Link to = "/Complaints" className="Link">
+                <div className="Link-Btn">Complaints</div></Link>
                 <Link to = "/About" className="Link">About</Link>
                 <Link to = "/Contact" className="Link">Contact</Link>
+                
+                
             </div>
         </div>
     </div>
